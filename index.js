@@ -74,7 +74,6 @@ $(document).ready(function () {
 
   function password_validation() {
     var password_val = $("#password").val();
-    // regularexpression.test()
     if (password_val.length == 0) {
       $("#passwordvalidation").show();
       $("#passwordvalidation").html("Password cannot be empty");
